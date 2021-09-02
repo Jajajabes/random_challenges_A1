@@ -1,0 +1,150 @@
+	Llega el intercambio solidario al restaurante de corrientazos
+
+El administrador del restaurante de corrientazos se encuentra supremamente satisfecho con tu labor como desarrollador de software, por eso se le siguen ocurriendo ideas para sistematizar el restaurante y cada vez confía más en tus capacidades para resolverlas.
+
+En los últimos días surgió una alianza entre restaurantes del sector para intercambiar los alimentos que cada restaurante tiene de sobra. Con esta iniciativa se busca aprovechar los alimentos y evitar al máximo al desperdicio. Por ello, el administrador te solicita crear un programa que le ayude a los restaurantes realizando sus intercambios.
+
+Para facilitar el intercambio de los alimentos entre restaurante, están enumerando cada uno de los alimentos. Por ejemplo, al arroz le asignaron el número 0.
+
+Entonces, cada vez que el administrador del restaurante va a hacer un intercambio, crea un listado con los códigos de los alimentos que le faltan en el restaurante, y crea otro listado con los códigos de los alimentos que tiene disponibles para intercambiar.
+
+Es importante anotar que todos los restaurantes que participan de este intercambio solidario de alimentos son entusiastas de la alimentación saludable, por lo que tienen categorizados los alimentos según si son de índice glucémico alto o índice glucémico bajo. Y los alimentos de una categoría solo son cambiados por alimentos que pertenecen a la misma categoría, para mantener el balance nutricional.
+
+A continuación se presenta la codificación que hicieron para cada alimento y el respectivo índice glucémico que tiene cada uno de los alimentos:
+
+Código
+
+Alimento
+
+Categoría índice glucémico
+
+0
+
+arroz
+
+alto
+
+1
+
+berenjena
+
+bajo
+
+2
+
+cebolla
+
+bajo
+
+3
+
+frijol
+
+bajo
+
+4
+
+garbanzo
+
+bajo
+
+5
+
+habichuela
+
+bajo
+
+6
+
+lechuga
+
+bajo
+
+7
+
+lentejas
+
+bajo
+
+8
+
+pollo
+
+bajo
+
+9
+
+spaghetti
+
+alto
+
+10
+
+tomate
+
+bajo
+
+11
+
+zanahoria
+
+bajo
+
+
+Como estás dando tus primeros pasos en el mundo de la programación de computadores, le consultaste a tu docente de programación para que te diera una guía sobre como resolver el problema, y a continuación se encuentran sus recomendaciones:
+
+Crear una librería llamada "alimentos_a_intercambiar", que conste como mínimo de las siguientes funciones que te permitirán construir el programa completo (Vale 1 punto):
+
+1. (Vale 1 punto) La función "indices_glucemicos" que dada una lista de las categorías de todos los alimentos (en la posición i-ésima de la lista está la categoría de dicho alimento), genera una lista con las categorías de alimentos sin repetición.
+
+Por ejemplo si el listado contiene cinco alimentos y cada una tiene las siguientes categorías:
+
+['alto','bajo','bajo','alto','alto']
+
+La función debe retornar la lista:
+
+['alto','bajo']
+
+2. (Vale 1 punto) La función "alimentos_que_faltan_por_categoria" que dada una lista con los códigos de los alimentos que le faltan al administrador del restaurante, la lista de las categorías de todos los alimentos y la categoría de alimentos que necesita (en ese orden), retorne una lista con los códigos que le faltan de la categoría que se indicó.
+
+Por ejemplo si se ejecuta la función:
+
+alimentos_que_faltan_por_categoria([0,3,6,9],['alto','bajo','bajo','bajo','bajo','bajo','bajo','bajo','bajo','alto','bajo','bajo'], 'bajo')
+
+Debe retornar la lista
+
+[3,6]
+
+3. (Vale 1 punto) La función "alimentos_que_no_tengo_pero_otro_si_tiene" que dado un listado con los códigos de los alimentos que tiene otro restaurante y una lista con los códigos de los alimentos que tiene el restaurante de corrientazos, retorna un listado con los códigos de los alimentos que a nuestro cliente le interesan y que el otro restaurante tiene disponibles.
+
+Por ejemplo si se se ejecuta la función:
+
+alimentos_que_no_tengo_pero_otro_si_tiene([0,3,5,7,10],[4,10,5,8])
+
+Se debe retornar la lista:
+
+[0,3,7]
+
+4. (Vale 1 punto) Para simplificar la primera versión de la librería, decidieron pensar que todos los alimentos son de una misma categoría y que la lista que maneja cada restaurante indica los códigos de los alimentos que tienen para intercambiar. Y aquellos códigos que no están en dicha lista son los que necesita el restaurante. De esta manera, debes crear una función llamada "numero_de_alimentos_disponibles_para_intercambiar" que reciba:
+
+La lista de códigos de alimentos que tiene otro restaurante y
+
+La lista de códigos de alimentos que tiene el administrador del restaurante,
+
+y que retorne el número total de alimentos que pueden intercambiar.
+
+Por ejemplo si se ejecuta la función:
+
+numero_de_alimentos_disponibles_para_intercambiar([0,3,5,7,10],[4,10,5,8])
+
+Debe retornar:
+
+2
+
+Se debe retornar el número 2 en el ejemplo porque al otro restaurante solo le interesan dos alimentos de los que tiene nuestro cliente: [4,8], mientras que a nuestro cliente le interesan tres láminas que la otra persona tiene: [0,3,7].
+
+
+
+Entradas y salidas:
+
+Este programa no requiere entrada. Ni generará salida. Se requiere que el estudiante genere un archivo con el nombre alimentos_a_intercambiar.py y que se respeten los nombres de las funciones solicitadas por el profesor y sus respectivos parámetros.

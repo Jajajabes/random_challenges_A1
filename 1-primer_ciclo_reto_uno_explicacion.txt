@@ -1,0 +1,62 @@
+	Pedro pide sus frutas a domicilio
+Pedro solicita telefónicamente sus frutas en la tienda de Daniel. Como esto ya le parece una tarea rutinaria y aprovechando que es amigo del tendero Daniel, piensa en una actividad que consiste en solicitarle a Daniel que resuelva ecuaciones para que el tendero adivine el número de unidades que desea comprar de limones y duraznos. Para que adivine, la única información que proporcionará Pedro corresponde al número de manzanas que necesita (aclaración: Pedro solo solicita unidades en números enteros).
+
+
+Al restar cuatro unidades de limones se obtienen dos veces las unidades de manzanas que Pedro desea adquirir. Y si se suman las unidades de limones y manzanas, se obtiene cinco veces las unidades de duraznos.
+
+
+Para ponerle más emoción al asunto, Pedro le dice a Daniel que no es necesario que le confirme el número de unidades que va a enviar de limones y duraznos. Solo le pide que diga una clave de acuerdo con el número de duraznos que vaya a enviar y así Pedro confirmará si el pedido se tomó correctamente. Las claves son las siguientes:
+
+
+-Si la cantidad de duraznos está entre 0 y 20, Daniel debe decir la palabra uno
+
+-Si la cantidad de duraznos está entre 21 y 30, Daniel debe decir la palabra dos
+
+-Si la cantidad de duraznos está entre 31 y 50, Daniel debe decir la palabra tres
+
+-Si la cantidad de duraznos está por encima de 50, Daniel debe decir la palabra cuatro
+
+
+Dado el número de manzanas realizar un programa que imprima:
+
+1. En la primera línea de código las unidades de manzanas, limones y duraznos separadas por un solo espacio cada una y
+
+2. En la segunda línea indique la palabra clave para identificar el rango en el que se encuentra el pedido de duraznos de Pedro.
+
+
+Para resumir, la entrada y la salida de tu programa deben ser:
+
+
+Entrada:
+
+Número de manzanas que necesita Pedro.
+
+
+Salidas:
+
+En la primera línea, tres números enteros correspondientes a la cantidad de manzanas, limones y duraznos que necesita Pedro.
+
+En la segunda línea, la palabra clave para identificar el rango en el que se encuentra la cantidad de duraznos que necesita Pedro.
+
+
+Ejemplos:
+
+Entrada:
+
+178
+
+Salida:
+
+178 360 107
+
+cuatro
+
+Entrada:
+
+29
+
+
+Salida:
+29 62 18
+
+uno

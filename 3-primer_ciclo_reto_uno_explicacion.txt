@@ -1,0 +1,50 @@
+	Análisis de consumo en un restaurante de corrientazos tipo buffet
+
+En un restaurante de corrientazos tipo buffet se venden únicamente los siguientes alimentos:
+Arroz
+
+Berenjena
+
+Ensalada de la casa
+
+Fríjoles
+
+Garbanzos
+
+Habichuelas asadas
+
+Lentejas
+
+Pollo
+
+Ratatouille
+
+Spaghetti
+
+Zanahorias en julianas
+
+Los clientes pueden combinar cada uno de los alimentos como quieran, es decir, si el cliente quiere comer 4 porciones de garbanzos, está en todo su derecho de hacerlo.
+
+El administrador del restaurante desea conocer y entender los gustos de sus clientes, por eso le encomienda a usted la tarea de desarrollar un programa en donde se ingrese la letra inicial en mayúscula de cada al alimento que van solicitando los clientes, separados por un espacio en blanco.
+
+Ejemplo entrada: L L L E E E E P P R R L L A B B S Z Z
+
+Y el administrador del restaurante le solicita que el programa tenga dos líneas de texto como salida:
+
+Salida Línea 1: La letra inicial en mayúscula de los alimentos solicitados por los clientes del restaurante (esta vez sin repetirse). Cada letra debe estar separada por un espacio.
+
+Ejemplo: L E P R L A B S Z
+
+Salida Línea 2: Cantidad de apariciones consecutivas de cada alimento en la cadena de carácteres de entrada. Cada número debe estar separado por un espacio.
+
+Ejemplo: 3 4 2 2 2 1 2 1 2
+
+
+
+Entrada
+E E G G Z Z Z Z S S H H H H H R R R R Z P P
+
+Salida
+E G Z S H R Z P
+
+2 2 4 2 5 4 1 2

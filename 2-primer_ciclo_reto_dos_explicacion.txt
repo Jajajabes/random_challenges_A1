@@ -1,0 +1,62 @@
+	El juego de azar de Mariana
+
+Tres amigos del barrio (Mariana, Felipe y Juana), se encuentran aburridos porque han tenido 3 meses de vacaciones y ya no saben que más jugar. Así que Mariana le propone a sus dos amigos un pasatiempo que consiste en un juego de azar que inventó para probar la suerte de sus dos amigos.
+
+En el juego que inventó Mariana, ella va a pensar en una palabra cualquiera y Felipe y Juana van a proponer algunas letras que creen que puede contener la palabra que pensó Mariana.
+
+Mariana recibe las letras que propusieron individualmente (Felipe y Juana) y va a verificar letra por letra de la palabra que pensó y verifica si la propuso Felipe, Juana, ambos la propusieron o ninguno la propuso. Entonces Mariana marcará las iniciales de los nombres de sus amigos, es decir, la letra F o J si alguno de estos jugadores lleva la ventaja o E si se mantiene la puntuación en 0.
+
+
+
+Si por ejemplo:
+
+-La primera letra de la palabra de Mariana, la propuso Felipe, Felipe llevará ventaja y en el tablero se escribirá la letra F (Resultado parcial del tablero: F)
+
+-Si la segunda letra la propuso Juana, ahora irán empatados y se añadirá la letra E al tablero (Resultado parcial del tablero: FE).
+
+-Si la tercera letra de la palabra no la propuso ninguno, seguirán empatados. Se escribirá la letra E (Resultado parcial del tablero: FEE).
+
+-Si la cuarta letra de la palabra la propusieron ambos, seguirán empatados (Resultado parcial del tablero: FEEE).
+
+-Si la quinta letra de la palabra la propuso Juana, Juana llevará la delantera (Resultado parcial del tablero: FEEEJ).
+Y así se irá llenando el tablero hasta que se termine de analizar toda la palabra que propuso Mariana
+
+Entrada
+
+Se le solicita realizar un programa que reciba las dos cadenas de caracteres que propusieron Felipe y Juana, respectivamente.
+
+Y por último se recibirá una tercera cadena de caracteres que contiene la palabra que pensó Mariana.
+
+
+
+Salida
+
+La salida del programa consta del tablero final de resultados que calculó Mariana, que se compondrá de las letras F, J y E.
+
+
+
+
+Ejemplos:
+
+Entrada
+DAW
+
+FZP
+
+QWHGQODUCBOTXGBN
+
+
+Salida
+EFFFFFFFFFFFFFFF
+
+
+Entrada
+RYGO
+
+LQUM
+
+DEIVUKJCHVMUYKFÑ
+
+
+Salida
+EEEEJJJJJJJJJJJJ

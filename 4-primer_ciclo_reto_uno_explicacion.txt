@@ -1,0 +1,70 @@
+		El proveedor de insumos llega al restaurante de corrientazos
+
+Esta semana, el proveedor de insumos alimenticios viene a visitar el restaurante de corrientazos tipo buffet para el que usted trabajó el fin de semana. Y el administrador del restaurante decide contratarlo a usted nuevamente ya que está muy contento con el trabajo que usted ha realizado como desarrollador de software.
+
+Los insumos necesarios en el restaurante de corrientazos son únicamente los siguientes alimentos:
+
+arroz
+berenjena
+cebolla
+ensalada
+frijol
+garbanzo
+habichuela
+lechuga
+lentejas
+pollo
+spaghetti
+tomate
+zanahoria
+Usualmente el proveedor de insumos alimenticios le dice al administrador cuales son los productos que tiene para ofrecerle y su respectivo precio. Y el administrador, luego de escuchar lo que ofrece el proveedor, le indica cuáles son los productos que necesita para abastecer el restaurante. Después, revisan de las necesidades del restaurante, cuáles productos de los que necesita el restaurante, los tiene el proveedor y suman cuanto debe pagar en total el administrador del restaurante por esos productos.
+
+El administrador del restaurante desea que este proceso sea más eficiente y por esto decide automatizarlo. Así pues, le encomienda a usted la tarea de desarrollar un programa en donde el proveedor de insumos ingrese los productos y los precios de cada producto, y luego el administrador ingrese cada uno de los productos que necesita en una cadena de caracteres separados por un espacio en blanco.
+
+Importante: El proveedor del restaurante debe ingresar los productos y precios teniendo en cuenta el formato definido y en minúscula. A continuación se muestra un ejemplo de las entradas requeridas:
+
+Entrada Línea 1:
+
+{"frijol": 1088, "garbanzo": 1425, "tomate": 1718, "habichuela": 1545}
+
+Entrada Línea 2:
+
+tomate berenjena frijol pollo
+
+
+Entonces el administrador del restaurante le solicita que el programa tenga dos líneas como salida:
+
+Salida Línea 1: El precio total que debe pagarle al proveedor para adquirir los productos que necesita el restaurante y que están dentro de los productos que el proveedor tiene disponibles.
+
+Ejemplo: 2806
+
+Salida Línea 2: Nombre de los productos que necesita el restaurante y que están dentro de los productos que el proveedor tiene disponibles. Cada producto debe estar separado por un espacio.
+
+Ejemplo: tomate frijol
+
+
+
+Otros ejemplos:
+
+Entrada
+{"frijol": 1049, "arroz": 1677, "garbanzo": 1950, "lentejas": 1320}
+
+spaghetti lentejas berenjena lechuga
+
+Salida
+1320
+
+lentejas
+
+
+
+Entrada
+{"arroz": 1079, "zanahoria": 1853, "lentejas": 1389, "frijol": 1712}
+
+pollo frijol berenjena arroz ensalada
+
+
+Salida
+2791
+
+frijol arroz
